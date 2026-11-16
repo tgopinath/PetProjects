@@ -341,19 +341,18 @@ footer{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-s
 .hero-hint{color:var(--faint)}
 .hero-media:after{background:linear-gradient(90deg,#f8f2f5e6 0%,#f8f2f599 30%,transparent 58%),linear-gradient(0deg,var(--bg) 0%,transparent 14%)}
 @media(max-width:860px){.hero{background:var(--bg)}.hero-media:after{background:linear-gradient(0deg,var(--bg) 0%,#f6f7fbe6 36%,transparent 64%)}}
+.hero{min-height:0;align-items:flex-end;background:var(--bg)}.hero-text{padding:132px 0 24px}@media(max-width:860px){.hero-text{padding:104px 0 8px}}
 </style>
 </head>
 <body>
 <main>
 <section class="hero" id="home">
-  <figure class="hero-media" aria-hidden="true"><video id="heroVideo" src="assets/hero/hero.mp4" muted playsinline preload="auto" disablepictureinpicture></video><video id="heroVideoM" class="off" src="assets/hero/hero-mirror.mp4" muted playsinline preload="auto" disablepictureinpicture></video></figure>
   <div class="hero-text">
     <span class="hi">Hi, I’m</span>
     <h1 class="hero-name">Gopinath Thandapani</h1>
     <p class="hero-intro">A product designer and vibe coder. Ten years at Zoho designing clear, calm enterprise experiences, and building my own apps on the side.</p>
     <div class="hero-cta"><a class="pill solid" href="#side-projects">See my projects</a><a class="pill" href="#contact">Let’s talk</a></div>
   </div>
-  <p class="hero-hint" id="heroHint">Move your pointer and I’ll turn to look</p>
 </section>
 <section class="wrap featured side" id="side-projects">
   <div class="shead"><h2>Pet projects</h2><p>Apps I designed and built with AI-assisted coding, mostly for farmers, families and kids in Tamil Nadu. Most have a live web app and an Android download.</p></div>
